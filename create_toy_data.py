@@ -29,7 +29,7 @@ issue_id INT,
 issue_dt TIMESTAMP,
 start_dt TIMESTAMP,
 issue_sum FLOAT);""")
-e("""CREATE TABLE casatka (
+e("""CREATE TABLE casatka_request (
 product_name STRING,
 customer_id INT,
 request_id INT,
