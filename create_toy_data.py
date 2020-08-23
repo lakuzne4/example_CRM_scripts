@@ -20,7 +20,7 @@ def e(query_text):
     return execute_sql(query_text,conn)
 	
 	
-e("""CREATE TABLE debit_cake_request (
+e("""CREATE TABLE dolphin_request (
 product_nm STRING,
 customer_id INT,
 request_id INT,
@@ -29,7 +29,7 @@ issue_id INT,
 issue_dt TIMESTAMP,
 start_dt TIMESTAMP,
 issue_sum FLOAT);""")
-e("""CREATE TABLE credit_cake_request (
+e("""CREATE TABLE casatka (
 product_name STRING,
 customer_id INT,
 request_id INT,
@@ -47,7 +47,7 @@ issue_id INT,
 issue_dt TIMESTAMP,
 start_dt TIMESTAMP,
 issue_sum FLOAT);""")
-e("""CREATE TABLE depo_request (
+e("""CREATE TABLE gepard_request (
 depo_product STRING,
 customer_id INT,
 depo_request_id INT,
@@ -56,7 +56,7 @@ issue_id INT,
 issue_dt TIMESTAMP,
 start_dt TIMESTAMP,
 issue_sum FLOAT);""")
-e("""CREATE TABLE mrtg_request (
+e("""CREATE TABLE monkey_request (
 product_nm STRING,
 customer_id INT,
 mrtg_request_id INT,
